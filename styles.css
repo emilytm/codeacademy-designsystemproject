@@ -1,16 +1,18 @@
+html {
+    background-color: #e7dcd0;
+}
 body {
     margin: 60px;
 }
 div.section {
-    border: 4px solid cornsilk;
     padding: 8px;
+    border-top: 4px #04764c solid;
 }
 
 .color-item {
     width: 19%;
     display:inline-block;
-    min-height: 100px;
-
+    vertical-align: top;
 }
 
 .spanish-gray{
@@ -24,6 +26,9 @@ div.section {
 }
 .almond p{
     color: black !important;
+}
+.almond {
+    border: 1px #023c26 solid;
 }
 .celadon-blue{
     background-color: #007ea7;
@@ -43,20 +48,59 @@ div.section {
 .color-hex {
     opacity: .7;
     letter-spacing: .3em;
+    vertical-align: bottom;
 }
 .color-label {
     font-size: 20px;
     letter-spacing: .05em;
+    vertical-align: top;
 }
+.color-box {
+    min-height: 120px;
+}
+.text-style-component {
+    display: inline-block;
+    width: 40%;
+}
+.text-style-section {
+    border-bottom: 2px #04764c solid;
+    margin:0 20px;
+}
+.section {
+    margin-bottom: 24px;
+}
+.style-label {
+    margin-left:10px;
+    margin-right: auto;
+    vertical-align: top;
+}
+.style-details {
+    margin-right:10px;
+    margin-left: auto;   
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Quattrocento', serif;
+    color: #023c26;
 }
 p {
     font-family: 'Quattrocento Sans', sans-serif;
+    color: #023c26;
 }
 p.code {
     font-family: 'Space Mono', monospace;
+    color: #04764c;
+}
+.link {
+    color:#04764c;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.link:hover {
+    color:#007ea7;
+    text-decoration: none;
+    cursor: pointer;
 }
 .font-item {
     display:inline-block;
@@ -66,10 +110,18 @@ p.code {
 }
 .quattro {
     font-family: 'Quattrocento', serif;
+    color:#023c26
+}
+.caption {
+    font-family: 'quattrocento sans', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #04764c;
 }
 
 .quattrosans {
     font-family: 'Quattrocento Sans', sans-serif;
+    color: #023c26;
 }
 
 .spacemono {
